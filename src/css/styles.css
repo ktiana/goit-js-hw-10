@@ -21,11 +21,11 @@ body {
 }
 
 #search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
+  border-style: solid;
+  padding: 10px;
   margin-bottom: 16px;
   border-radius: 4px;
+  border-color: cadetblue;
 }
 
 img {
@@ -49,7 +49,5 @@ img {
 
 .country-heading {
   display: flex;
-  gap: 10px;
-  text-align: center;
-  flex: 1 0 50%;
+  gap: 12px;
 }
